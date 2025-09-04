@@ -32,7 +32,7 @@ def load_data(path):
     df = df[df['Total'] > 0]
     return df
 
-df = load_data("ecommerce_dataset_us.csv")
+df = load_data(""data/ecommerce_dataset_us.csv", sep="\t"")
 
 # =========================
 # 2) Filtrar por data (Streamlit date input)
